@@ -1,0 +1,51 @@
+baseURL = "https://sylversk40.github.io/"
+title = "SylverSK40"
+theme = "PaperMod"
+languageCode = "en-us"
+
+# Portfolio site: no RSS needed, avoids template mismatch issues
+disableKinds = ["RSS"]
+
+[params]
+  defaultTheme = "dark"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+
+  [params.profileMode]
+    enabled = true
+    title = "SylverSK40"
+    subtitle = "Offensive Security | Web App Pentesting | Bug Bounty Research"
+
+    [[params.profileMode.buttons]]
+      name = "Writeups"
+      url = "/writeups/"
+
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects/"
+
+    [[params.profileMode.buttons]]
+      name = "Certifications"
+      url = "/certifications/"
+
+[menu]
+  [[menu.main]]
+    name = "Writeups"
+    url = "/writeups/"
+    weight = 10
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+  [[menu.main]]
+    name = "Certifications"
+    url = "/certifications/"
+    weight = 30
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 40

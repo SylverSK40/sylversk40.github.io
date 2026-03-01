@@ -1,0 +1,10 @@
+# Hugo build output
+/public/
+
+# Hugo lock file
+.hugo_build.lock
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
