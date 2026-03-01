@@ -1,9 +1,9 @@
 baseURL = "https://sylversk40.github.io/"
-title = "SylverSK40"
+title = "SylverThreads"
 theme = "PaperMod"
 languageCode = "en-us"
 
-# Portfolio site: no RSS needed, avoids template mismatch issues
+# Portfolio site: no RSS needed
 disableKinds = ["RSS"]
 
 [params]
@@ -17,7 +17,7 @@ disableKinds = ["RSS"]
 
   [params.profileMode]
     enabled = true
-    title = "SylverSK40"
+    title = "SylverThreads"
     subtitle = "Offensive Security | Web App Pentesting | Bug Bounty Research"
 
     [[params.profileMode.buttons]]
@@ -31,6 +31,10 @@ disableKinds = ["RSS"]
     [[params.profileMode.buttons]]
       name = "Certifications"
       url = "/certifications/"
+
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about/"
 
 [menu]
   [[menu.main]]
