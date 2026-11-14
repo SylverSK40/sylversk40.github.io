@@ -1,10 +1,10 @@
 ---
 title: "Certifications"
 draft: false
-description: "Professional cybersecurity, offensive security, networking, and IT certifications."
+description: "Cybersecurity, penetration testing, networking, and IT certifications."
 ---
 
-My certifications reflect a combination of **offensive security specialization**, **networking and system fundamentals**, and broader security operations knowledge.
+My certifications span **offensive security**, **networking and infrastructure**, and **security operations**. They complement hands-on work in technical environments and ongoing security research.
 
 ## Offensive security and web application testing
 
@@ -14,11 +14,13 @@ My certifications reflect a combination of **offensive security specialization**
 | OffSec Wireless Professional (OSWP) | OffSec | November 2019 |
 | OffSec Web Assessor (OSWA) | OffSec | June 2022 |
 | Certified Web Exploitation Specialist (CWES) | Hack The Box | May 2024 |
+| Certified Bug Bounty Hunter (CBBH) | Hack The Box | Date not listed |
 
 ## CompTIA
 
 | Certification | Earned |
 | --- | --- |
+| A+ | Date not listed |
 | Network+ | February 2026 |
 | Security+ | March 2026 |
 | Project+ | May 2026 |
@@ -26,7 +28,7 @@ My certifications reflect a combination of **offensive security specialization**
 | CySA+ | August 2026 |
 | PenTest+ | September 2026 |
 
-## Other professional certifications
+## Additional credentials
 
 | Certification | Issuer | Earned |
 | --- | --- | --- |
@@ -35,4 +37,4 @@ My certifications reflect a combination of **offensive security specialization**
 
 ---
 
-*Certification information is drawn from my current résumé. Verification links and credential badges can be added as they become available.*
+*Earned dates are based on my résumé. A+ and CBBH were previously confirmed separately; their issue dates are not included in that document. Credential badges and verification links can be added once verified.*
