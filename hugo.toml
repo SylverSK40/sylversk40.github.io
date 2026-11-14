@@ -35,6 +35,10 @@ disableKinds = ["RSS"]
       name = "Certifications"
       url = "/certifications/"
 
+    [[params.profileMode.buttons]]
+      name = "Hack The Box"
+      url = "https://profile.hackthebox.com/profile/019c733a-f9ea-7351-a422-98f61bfdd333"
+
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/SylverSK40"
