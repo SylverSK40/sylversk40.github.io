@@ -86,3 +86,30 @@ a { transition: color .2s ease; }
   .post-content .issuer-logo { width: 54px; height: 52px; flex-basis: 54px; }
   .post-content .issuer-wordmark { font-size: 0.7rem; }
 }
+
+
+/* SylverThreads home-only artwork; leave content pages clean and readable. */
+body:has(main .profile) {
+  background-color: #101923;
+  background-image:
+    linear-gradient(rgba(7, 15, 22, .20), rgba(7, 15, 22, .33)),
+    url("/images/sylverthreads-home.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body:has(main .profile) .profile,
+body:has(main .profile) .main {
+  background-color: transparent;
+}
+body:has(main .profile) .profile .profile_inner {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 720px) {
+  body:has(main .profile) {
+    background-attachment: scroll;
+    background-position: 50% 50%;
+  }
+}
