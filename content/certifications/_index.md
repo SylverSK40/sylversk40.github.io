@@ -11,7 +11,7 @@ My certifications reflect a combination of **hands-on offensive security**, **se
 | Certification | Issuer | Earned |
 | --- | --- | --- |
 | OffSec Certified Professional (OSCP) | OffSec | June 2018 |
-| OffSec Wireless Professional (OSWP) | OffSec | October 15, 2019 |
+| OffSec Wireless Professional (OSWP) | OffSec | October 2019 |
 | OffSec Web Assessor (OSWA) | OffSec | June 2022 |
 | Certified Web Exploitation Specialist (CWES) | Hack The Box | May 2024 |
 
