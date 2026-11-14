@@ -42,3 +42,9 @@ Recipient of WGU's **Excellence Award in Managing Information Security**.
 SylverThreads is where I present my professional background and, over time, selected technical work. The goal is simple: keep the presentation approachable while letting the quality and clarity of the work demonstrate technical depth.
 
 For professional connections, find me on [LinkedIn](https://www.linkedin.com/in/sylversk40/) or explore my [GitHub profile](https://github.com/SylverSK40).
+
+### Professional and training profiles
+
+- [Hack The Box](https://profile.hackthebox.com/profile/019c733a-f9ea-7351-a422-98f61bfdd333) — hands-on labs and cybersecurity training
+- [OffSec public profile](https://portal.offsec.com/public-profile/993784a3-2f36-11f0-9794-0ad45fbd5c7b) — offensive security credentials
+- [Credly badges](https://www.credly.com/users/sylversk40/badges/credly) — digital credentials and badges
