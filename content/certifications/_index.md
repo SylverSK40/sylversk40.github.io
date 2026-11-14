@@ -1,26 +1,25 @@
 ---
 title: "Certifications"
 draft: false
-description: "Cybersecurity, penetration testing, networking, and IT certifications."
+description: "Offensive security, cybersecurity operations, networking, and IT credentials."
 ---
 
-My certifications span **offensive security**, **networking and infrastructure**, and **security operations**. They complement hands-on work in technical environments and ongoing security research.
+My certifications reflect a combination of **hands-on offensive security**, **security operations**, and **networking fundamentals**. They complement my professional experience and continued research.
 
 ## Offensive security and web application testing
 
 | Certification | Issuer | Earned |
 | --- | --- | --- |
 | OffSec Certified Professional (OSCP) | OffSec | June 2018 |
-| OffSec Wireless Professional (OSWP) | OffSec | November 2019 |
+| OffSec Wireless Professional (OSWP) | OffSec | October 15, 2019 |
 | OffSec Web Assessor (OSWA) | OffSec | June 2022 |
 | Certified Web Exploitation Specialist (CWES) | Hack The Box | May 2024 |
-| Certified Bug Bounty Hunter (CBBH) | Hack The Box | Date not listed |
 
-## CompTIA
+## CompTIA certifications
 
 | Certification | Earned |
 | --- | --- |
-| A+ | Date not listed |
+| A+ | February 2026 |
 | Network+ | February 2026 |
 | Security+ | March 2026 |
 | Project+ | May 2026 |
@@ -28,7 +27,16 @@ My certifications span **offensive security**, **networking and infrastructure**
 | CySA+ | August 2026 |
 | PenTest+ | September 2026 |
 
-## Additional credentials
+### CompTIA stackable credentials
+
+The following are additional CompTIA designations earned through combinations of certifications:
+
+- **CompTIA Secure Infrastructure Specialist (CSIS)** — March 2026
+- **CompTIA Security Analytics Professional (CSAP)** — August 2026
+- **CompTIA Network Security Professional (CNSP)** — September 2026
+- **CompTIA Network Vulnerability Assessment Professional (CNVP)** — September 2026
+
+## Additional professional credentials
 
 | Certification | Issuer | Earned |
 | --- | --- | --- |
@@ -37,4 +45,4 @@ My certifications span **offensive security**, **networking and infrastructure**
 
 ---
 
-*Earned dates are based on my résumé. A+ and CBBH were previously confirmed separately; their issue dates are not included in that document. Credential badges and verification links can be added once verified.*
+*Dates reflect my résumé, LinkedIn profile, and confirmed credential details. Verification badges and credential links can be added separately.*
