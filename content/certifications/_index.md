@@ -4,18 +4,36 @@ draft: false
 description: "Offensive security, cybersecurity operations, networking, and IT credentials."
 ---
 
-My certifications reflect a combination of **hands-on offensive security**, **security operations**, and **networking fundamentals**. They complement my professional experience and continued research.
+My certifications reflect **hands-on offensive security**, **security operations**, and **networking fundamentals**. They're organized by issuer so the credentials are easy to scan.
 
 ## Offensive security and web application testing
 
-| Certification | Issuer | Earned |
-| --- | --- | --- |
-| OffSec Certified Professional (OSCP) | OffSec | June 2018 |
-| OffSec Wireless Professional (OSWP) | OffSec | October 2019 |
-| OffSec Web Assessor (OSWA) | OffSec | June 2022 |
-| Certified Web Exploitation Specialist (CWES) | Hack The Box | May 2024 |
+<div class="issuer-heading">
+  <span class="issuer-logo issuer-wordmark" aria-hidden="true">OffSec</span>
+  <span class="issuer-heading-text"><strong>OffSec</strong><small>Offensive security certifications</small></span>
+</div>
+
+| Certification | Earned |
+| --- | --- |
+| OffSec Certified Professional (OSCP) | June 2018 |
+| OffSec Wireless Professional (OSWP) | October 15, 2019 |
+| OffSec Web Assessor (OSWA) | June 2022 |
+
+<div class="issuer-heading">
+  <span class="issuer-logo"><img src="/images/issuers/hackthebox.svg" alt="Hack The Box logo" loading="lazy" width="35" height="35"></span>
+  <span class="issuer-heading-text"><strong>Hack The Box</strong><small>Web exploitation</small></span>
+</div>
+
+| Certification | Earned |
+| --- | --- |
+| Certified Web Exploitation Specialist (CWES) | May 2024 |
 
 ## CompTIA certifications
+
+<div class="issuer-heading">
+  <span class="issuer-logo"><img src="/images/issuers/comptia.svg" alt="CompTIA logo" loading="lazy" width="35" height="35"></span>
+  <span class="issuer-heading-text"><strong>CompTIA</strong><small>Security, networking, and IT fundamentals</small></span>
+</div>
 
 | Certification | Earned |
 | --- | --- |
@@ -29,7 +47,7 @@ My certifications reflect a combination of **hands-on offensive security**, **se
 
 ### CompTIA stackable credentials
 
-The following are additional CompTIA designations earned through combinations of certifications:
+These are additional CompTIA designations earned through combinations of certifications:
 
 - **CompTIA Secure Infrastructure Specialist (CSIS)** — March 2026
 - **CompTIA Security Analytics Professional (CSAP)** — August 2026
@@ -38,11 +56,24 @@ The following are additional CompTIA designations earned through combinations of
 
 ## Additional professional credentials
 
-| Certification | Issuer | Earned |
-| --- | --- | --- |
-| Linux Essentials | Linux Professional Institute (LPI) | June 2026 |
-| ITIL 4 Foundation | PeopleCert | March 2026 |
+<div class="issuer-heading">
+  <span class="issuer-logo"><img src="/images/issuers/lpi.svg" alt="Linux Professional Institute logo" loading="lazy" width="35" height="35"></span>
+  <span class="issuer-heading-text"><strong>Linux Professional Institute</strong><small>Linux fundamentals</small></span>
+</div>
+
+| Certification | Earned |
+| --- | --- |
+| Linux Essentials | June 2026 |
+
+<div class="issuer-heading">
+  <span class="issuer-logo issuer-wordmark issuer-wordmark-long" aria-hidden="true">PeopleCert</span>
+  <span class="issuer-heading-text"><strong>PeopleCert</strong><small>IT service management</small></span>
+</div>
+
+| Certification | Earned |
+| --- | --- |
+| ITIL 4 Foundation | March 2026 |
 
 ---
 
-*Dates reflect my résumé, LinkedIn profile, and confirmed credential details. Verification badges and credential links can be added separately.*
+*Dates are based on my résumé, LinkedIn, and verified credential details. The OffSec and PeopleCert labels above are typographic placeholders, not official logos. Individual badge images and credential verification links may be added later.*
