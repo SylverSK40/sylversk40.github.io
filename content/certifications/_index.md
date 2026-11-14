@@ -8,11 +8,9 @@ description: "Offensive security, cybersecurity operations, networking, and IT c
 
 My certifications reflect **hands-on offensive security**, **security operations**, and **networking fundamentals**. They're organized by issuer so the credentials are easy to scan.
 
-**Verify credentials:** [OffSec public profile](https://portal.offsec.com/public-profile/993784a3-2f36-11f0-9794-0ad45fbd5c7b) · [Credly badges](https://www.credly.com/users/sylversk40/badges/credly)
-
 ## Offensive security and web application testing
 
-{{< issuer name="OffSec" subtitle="Offensive security certifications" >}}
+{{< issuer name="OffSec" subtitle="Offensive security certifications" url="https://portal.offsec.com/public-profile/993784a3-2f36-11f0-9794-0ad45fbd5c7b" >}}
 
 | Certification | Earned |
 | --- | --- |
@@ -20,7 +18,7 @@ My certifications reflect **hands-on offensive security**, **security operations
 | OffSec Wireless Professional (OSWP) | October 2019 |
 | OffSec Web Assessor (OSWA) | June 2022 |
 
-{{< issuer name="Hack The Box" subtitle="Web exploitation" image="/images/issuers/hackthebox.svg" >}}
+{{< issuer name="Hack The Box" subtitle="Web exploitation" image="/images/issuers/hackthebox.svg" url="https://profile.hackthebox.com/profile/019c733a-f9ea-7351-a422-98f61bfdd333" >}}
 
 | Certification | Earned |
 | --- | --- |
@@ -28,7 +26,7 @@ My certifications reflect **hands-on offensive security**, **security operations
 
 ## CompTIA certifications
 
-{{< issuer name="CompTIA" subtitle="Security, networking, and IT fundamentals" image="/images/issuers/comptia.svg" >}}
+{{< issuer name="CompTIA" subtitle="Security, networking, and IT fundamentals" image="/images/issuers/comptia.svg" url="https://www.credly.com/users/sylversk40/badges/credly" >}}
 
 | Certification | Earned |
 | --- | --- |
