@@ -8,10 +8,7 @@ My certifications reflect **hands-on offensive security**, **security operations
 
 ## Offensive security and web application testing
 
-<div class="issuer-heading">
-  <span class="issuer-logo issuer-wordmark" aria-hidden="true">OffSec</span>
-  <span class="issuer-heading-text"><strong>OffSec</strong><small>Offensive security certifications</small></span>
-</div>
+{{< issuer name="OffSec" subtitle="Offensive security certifications" >}}
 
 | Certification | Earned |
 | --- | --- |
@@ -19,10 +16,7 @@ My certifications reflect **hands-on offensive security**, **security operations
 | OffSec Wireless Professional (OSWP) | October 15, 2019 |
 | OffSec Web Assessor (OSWA) | June 2022 |
 
-<div class="issuer-heading">
-  <span class="issuer-logo"><img src="/images/issuers/hackthebox.svg" alt="Hack The Box logo" loading="lazy" width="35" height="35"></span>
-  <span class="issuer-heading-text"><strong>Hack The Box</strong><small>Web exploitation</small></span>
-</div>
+{{< issuer name="Hack The Box" subtitle="Web exploitation" image="/images/issuers/hackthebox.svg" >}}
 
 | Certification | Earned |
 | --- | --- |
@@ -30,10 +24,7 @@ My certifications reflect **hands-on offensive security**, **security operations
 
 ## CompTIA certifications
 
-<div class="issuer-heading">
-  <span class="issuer-logo"><img src="/images/issuers/comptia.svg" alt="CompTIA logo" loading="lazy" width="35" height="35"></span>
-  <span class="issuer-heading-text"><strong>CompTIA</strong><small>Security, networking, and IT fundamentals</small></span>
-</div>
+{{< issuer name="CompTIA" subtitle="Security, networking, and IT fundamentals" image="/images/issuers/comptia.svg" >}}
 
 | Certification | Earned |
 | --- | --- |
@@ -56,19 +47,13 @@ These are additional CompTIA designations earned through combinations of certifi
 
 ## Additional professional credentials
 
-<div class="issuer-heading">
-  <span class="issuer-logo"><img src="/images/issuers/lpi.svg" alt="Linux Professional Institute logo" loading="lazy" width="35" height="35"></span>
-  <span class="issuer-heading-text"><strong>Linux Professional Institute</strong><small>Linux fundamentals</small></span>
-</div>
+{{< issuer name="Linux Professional Institute" subtitle="Linux fundamentals" image="/images/issuers/lpi.svg" >}}
 
 | Certification | Earned |
 | --- | --- |
 | Linux Essentials | June 2026 |
 
-<div class="issuer-heading">
-  <span class="issuer-logo issuer-wordmark issuer-wordmark-long" aria-hidden="true">PeopleCert</span>
-  <span class="issuer-heading-text"><strong>PeopleCert</strong><small>IT service management</small></span>
-</div>
+{{< issuer name="PeopleCert" subtitle="IT service management" >}}
 
 | Certification | Earned |
 | --- | --- |
