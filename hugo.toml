@@ -3,11 +3,13 @@ title = "SylverThreads"
 theme = "PaperMod"
 languageCode = "en-us"
 
-# Portfolio site: no RSS needed
+# A portfolio site does not need RSS.
 disableKinds = ["RSS"]
 
 [params]
+  description = "SylverThreads | Penetration Testing, Web Application Security and Cybersecurity"
   defaultTheme = "dark"
+  disableThemeToggle = true
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -18,38 +20,31 @@ disableKinds = ["RSS"]
   [params.profileMode]
     enabled = true
     title = "SylverThreads"
-    subtitle = "Offensive Security | Web App Pentesting | Bug Bounty Research"
-
-    [[params.profileMode.buttons]]
-      name = "Writeups"
-      url = "/writeups/"
-
-    [[params.profileMode.buttons]]
-      name = "Projects"
-      url = "/projects/"
-
-    [[params.profileMode.buttons]]
-      name = "Certifications"
-      url = "/certifications/"
+    subtitle = "Sylvester St. Juste | Penetration Tester\nOffensive Security • Web Application Pentesting • Bug Bounty Research"
 
     [[params.profileMode.buttons]]
       name = "About"
       url = "/about/"
 
+    [[params.profileMode.buttons]]
+      name = "Certifications"
+      url = "/certifications/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/SylverSK40"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/sylversk40/"
+
 [menu]
-  [[menu.main]]
-    name = "Writeups"
-    url = "/writeups/"
-    weight = 10
-  [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
-    weight = 20
-  [[menu.main]]
-    name = "Certifications"
-    url = "/certifications/"
-    weight = 30
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 40
+    weight = 10
+
+  [[menu.main]]
+    name = "Certifications"
+    url = "/certifications/"
+    weight = 20
