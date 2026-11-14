@@ -1,0 +1,3 @@
+{{- $variant := .Get "variant" | default "about" -}}
+{{- if not (in (slice "about" "certifications") $variant) -}}{{- errorf "Unsupported interior art variant: %s" $variant -}}{{- end -}}
+<div class="interior-art interior-art--{{ $variant }}" role="presentation" aria-hidden="true"></div>
