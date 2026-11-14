@@ -17,6 +17,11 @@ disableKinds = ["RSS"]
   ShowBreadCrumbs = true
   ShowToc = true
 
+  [params.assets]
+    favicon = "/favicon.svg"
+    favicon16x16 = "/favicon.svg"
+    favicon32x32 = "/favicon.svg"
+
   [params.profileMode]
     enabled = true
     title = "SylverThreads"
