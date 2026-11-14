@@ -1,0 +1,38 @@
+/* SylverThreads: restrained color and layout refinements for PaperMod. */
+:root {
+  --theme: #f7f9fb;
+  --entry: #ffffff;
+  --primary: #182735;
+  --secondary: #516373;
+  --tertiary: #d9e3ea;
+  --content: #27394a;
+  --border: #d9e3ea;
+}
+.dark {
+  --theme: #101923;
+  --entry: #17232e;
+  --primary: #e9f1f7;
+  --secondary: #a3b5c4;
+  --tertiary: #2d4352;
+  --content: #d4e0e8;
+  --border: #2d4352;
+}
+.profile .profile_inner h1 { letter-spacing: -0.035em; }
+.profile .profile_inner > span { max-width: 42rem; line-height: 1.7; }
+.profile .profile_inner .buttons { margin-top: 1.1rem; }
+.profile .profile_inner .button {
+  border: 1px solid #298ca1;
+  background: transparent;
+  color: var(--primary);
+  transition: background-color .2s ease, border-color .2s ease;
+}
+.profile .profile_inner .button:hover { background: #176b7d; color: white; }
+a { transition: color .2s ease; }
+.post-content a { box-shadow: 0 1px 0 #298ca1; }
+.post-content a:hover { color: #3ca8b7; }
+.post-content table { display: table; width: 100%; }
+.post-content th { background: var(--entry); }
+.post-content th, .post-content td { padding: .75rem .9rem; }
+@media (max-width: 650px) {
+  .post-content table { display: block; overflow-x: auto; }
+}
