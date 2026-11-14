@@ -1,0 +1,13 @@
+{{- $name := .Get "name" -}}
+{{- $subtitle := .Get "subtitle" -}}
+{{- $image := .Get "image" -}}
+<div class="issuer-heading">
+  <span class="issuer-logo{{ if not $image }} issuer-wordmark{{ end }}">
+    {{- if $image -}}
+      <img src="{{ $image | relURL }}" alt="{{ $name }} logo" loading="lazy" width="35" height="35">
+    {{- else -}}
+      <span aria-hidden="true">{{ $name }}</span>
+    {{- end -}}
+  </span>
+  <span class="issuer-heading-text"><strong>{{ $name }}</strong><small>{{ $subtitle }}</small></span>
+</div>
