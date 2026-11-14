@@ -103,3 +103,31 @@ html[data-theme="dark"] body.list:has(main .profile) .profile {
     background-position: center;
   }
 }
+
+
+/* Restrained interior art: same image as homepage, intentionally quiet. */
+.post-content .interior-art {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background-color: #101923;
+  background-image: linear-gradient(90deg, rgba(9, 18, 26, .30), rgba(9, 18, 26, .56)),
+    url("/images/sylverthreads-home.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 0 1.75rem;
+  overflow: hidden;
+}
+.post-content .interior-art--about {
+  height: clamp(130px, 18vw, 210px);
+  background-position: center 34%;
+}
+.post-content .interior-art--certifications {
+  height: clamp(90px, 12vw, 135px);
+  background-image: linear-gradient(90deg, rgba(9, 18, 26, .58), rgba(9, 18, 26, .75)),
+    url("/images/sylverthreads-home.webp");
+  background-position: center 67%;
+}
+@media (max-width: 650px) {
+  .post-content .interior-art { border-radius: 8px; }
+}
