@@ -4,6 +4,8 @@ draft: false
 description: "Meet Sylvester St. Juste, a cybersecurity professional focused on penetration testing and web application security."
 ---
 
+{{< interior-art variant="about" >}}
+
 ## Hello, I'm Sylvester.
 
 I'm a cybersecurity professional with more than seven years of experience across security operations, offensive testing, monitoring, and incident response. My interests are centered on **penetration testing, web application security, and bug bounty research**—with an emphasis on turning technical findings into clear, actionable recommendations.
