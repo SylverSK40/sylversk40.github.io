@@ -1,6 +1,7 @@
 {{- $name := .Get "name" -}}
 {{- $subtitle := .Get "subtitle" -}}
 {{- $image := .Get "image" -}}
+{{- $url := .Get "url" -}}
 <div class="issuer-heading">
   <span class="issuer-logo{{ if not $image }} issuer-wordmark{{ end }}">
     {{- if $image -}}
@@ -9,5 +10,12 @@
       <span aria-hidden="true">{{ $name }}</span>
     {{- end -}}
   </span>
-  <span class="issuer-heading-text"><strong>{{ $name }}</strong><small>{{ $subtitle }}</small></span>
+  <span class="issuer-heading-text">
+    {{- if $url -}}
+    <a class="issuer-profile-link" href="{{ $url | safeURL }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ $name }} public profile"><strong>{{ $name }}</strong><span aria-hidden="true"> ↗</span></a>
+    {{- else -}}
+    <strong>{{ $name }}</strong>
+    {{- end -}}
+    <small>{{ $subtitle }}</small>
+  </span>
 </div>
