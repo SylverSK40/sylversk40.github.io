@@ -6,6 +6,8 @@ description: "Offensive security, cybersecurity operations, networking, and IT c
 
 My certifications reflect **hands-on offensive security**, **security operations**, and **networking fundamentals**. They're organized by issuer so the credentials are easy to scan.
 
+**Verify credentials:** [OffSec public profile](https://portal.offsec.com/public-profile/993784a3-2f36-11f0-9794-0ad45fbd5c7b) · [Credly badges](https://www.credly.com/users/sylversk40/badges/credly)
+
 ## Offensive security and web application testing
 
 {{< issuer name="OffSec" subtitle="Offensive security certifications" >}}
