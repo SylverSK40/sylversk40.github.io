@@ -39,6 +39,14 @@ disableKinds = ["RSS"]
       name = "Hack The Box"
       url = "https://profile.hackthebox.com/profile/019c733a-f9ea-7351-a422-98f61bfdd333"
 
+    [[params.profileMode.buttons]]
+      name = "Credly"
+      url = "https://www.credly.com/users/sylversk40/badges/credly"
+
+    [[params.profileMode.buttons]]
+      name = "OffSec"
+      url = "https://portal.offsec.com/public-profile/993784a3-2f36-11f0-9794-0ad45fbd5c7b"
+
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/SylverSK40"
