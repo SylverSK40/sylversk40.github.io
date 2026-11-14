@@ -88,28 +88,18 @@ a { transition: color .2s ease; }
 }
 
 
-/* SylverThreads home-only artwork; leave content pages clean and readable. */
-body:has(main .profile) {
-  background-color: #101923;
-  background-image:
-    linear-gradient(rgba(7, 15, 22, .20), rgba(7, 15, 22, .33)),
-    url("/images/sylverthreads-home.webp");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+/* Homepage artwork: override PaperMod's more specific list background rule. */
+html[data-theme="dark"] body.list:has(main .profile) {
+  background: linear-gradient(rgba(7,15,22,.20), rgba(7,15,22,.33)),
+    url("/images/sylverthreads-home.webp") center center / cover no-repeat fixed #101923;
 }
-body:has(main .profile) .profile,
-body:has(main .profile) .main {
-  background-color: transparent;
-}
-body:has(main .profile) .profile .profile_inner {
-  position: relative;
-  z-index: 1;
+html[data-theme="dark"] body.list:has(main .profile) .main,
+html[data-theme="dark"] body.list:has(main .profile) .profile {
+  background: transparent;
 }
 @media (max-width: 720px) {
-  body:has(main .profile) {
+  html[data-theme="dark"] body.list:has(main .profile) {
     background-attachment: scroll;
-    background-position: 50% 50%;
+    background-position: center;
   }
 }
