@@ -36,3 +36,53 @@ a { transition: color .2s ease; }
 @media (max-width: 650px) {
   .post-content table { display: block; overflow-x: auto; }
 }
+
+/* Certification issuer headers: common dimensions keep disparate logos orderly. */
+.post-content .issuer-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin: 1.65rem 0 0.7rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--entry);
+}
+.post-content .issuer-logo {
+  width: 64px;
+  height: 56px;
+  flex: 0 0 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  background: #1b2e39;
+  color: #fff;
+}
+.post-content .issuer-logo img {
+  display: block;
+  width: 35px;
+  height: 35px;
+  max-width: none;
+  margin: 0;
+  border-radius: 0;
+}
+.post-content .issuer-wordmark {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+.post-content .issuer-wordmark span { color: #fff; }
+.post-content .issuer-heading-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 0.15rem;
+}
+.post-content .issuer-heading-text strong { font-size: 1.05rem; line-height: 1.3; }
+.post-content .issuer-heading-text small { color: var(--secondary); font-size: 0.83rem; line-height: 1.35; }
+@media (max-width: 450px) {
+  .post-content .issuer-heading { padding: 0.65rem; gap: 0.65rem; }
+  .post-content .issuer-logo { width: 54px; height: 52px; flex-basis: 54px; }
+  .post-content .issuer-wordmark { font-size: 0.7rem; }
+}
